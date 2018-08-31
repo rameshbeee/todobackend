@@ -26,7 +26,7 @@ DATABASES = {
         'NAME': os.environ.get('MYSQL_DATABASE','todobackend'),
         'USER': os.environ.get('MYSQL_USER','todo'),
         'PASSWORD': os.environ.get('MYSQL_PASSWORD','password'),
-        'HOST': os.environ.get('MYSQL_HOST','localhost'),
+        'HOST': os.environ.get('MYSQL_HOST','192.168.33.10'),
         'PORT': os.environ.get('MYSQL_PORT','3306'),
     }
 }
