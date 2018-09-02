@@ -104,7 +104,7 @@ buildtag:
 	${INFO} "Tagging complete"
 
 login:
-	${INFO} "Logging in to Docker registry $$DOCKER_REGISTRY... $$DOCKER_USER $$DOCKER_PASSWORD"
+	${INFO} "Logging in to Docker registry $$DOCKER_REGISTRY..."
 	@ docker login -u $$DOCKER_USER  -e $$DOCKER_EMAIL -p $$DOCKER_PASSWORD $(DOCKER_REGISTRY_AUTH)
 	${INFO} "Logged in to Docker registry $$DOCKER_REGISTRY"
 
